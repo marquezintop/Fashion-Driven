@@ -36,58 +36,86 @@
                         <p>Escolha o modelo</p>
                         <div class="models-options">
                             <div class="option">
-                                <button class="option-button"><img src="assets/tshirt.png" alt=""></button>
+                                <button class="option-button" onclick="selectModelOption(this)">
+                                    <img src="assets/tshirt.png" alt="">
+                                    <p class="hidden">t-shirt</p>
+                                </button>
                                 <p>T-shirt</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/toptank.png" alt=""></button>
+                                <button class="option-button" onclick="selectModelOption(this)">
+                                    <img src="assets/toptank.png" alt="">
+                                    <p class="hidden">top-tank</p>
+                                </button>
                                 <p>Camiseta</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/longsleeves.png" alt=""></button>
+                                <button class="option-button" onclick="selectModelOption(this)">
+                                    <img src="assets/longsleeves.png" alt="">
+                                    <p class="hidden">long</p>
+                                </button>
                                 <p>Manga Longa</p>
                             </div>
                         </div> <!-- models options -->
                     </div> <!-- models -->
 
-                    <div class="collar">
+                    <div class="necks">
                         <p>Escolha a gola</p>
-                        <div class="collar-options">
+                        <div class="necks-options">
                             <div class="option">
-                                <button class="option-button"><img src="assets/vcollar.png" alt=""></button>
+                                <button class="option-button" onclick="selectNeckOption(this)">
+                                    <img src="assets/vneck.png" alt="">
+                                    <p class="hidden">v-neck</p>
+                                </button>
                                 <p>Gola V</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/roundcollar.png" alt=""></button>
+                                <button class="option-button" onclick="selectNeckOption(this)">
+                                    <img src="assets/roundneck.png" alt="">
+                                    <p class="hidden">round</p>
+                                </button>
                                 <p>Gola Redonda</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/poloneck.png" alt=""></button>
+                                <button class="option-button" onclick="selectNeckOption(this)">
+                                    <img src="assets/poloneck.png" alt="">
+                                    <p class="hidden">polo</p>
+                                </button>
                                 <p>Gola Polo</p>
                             </div>
-                        </div> <!-- collar options -->
-                    </div> <!-- collar -->  
+                        </div> <!-- necks options -->
+                    </div> <!-- necks -->  
 
-                    <div class="fabric">
+                    <div class="materials">
                         <p>Escolha o tecido</p>
-                        <div class="fabric-options">
+                        <div class="materials-options">
                             <div class="option">
-                                <button class="option-button"><img src="assets/silk.png" alt=""></button>
-                                <p>Gola V</p>
+                                <button class="option-button" onclick="selectMaterialOption(this)">
+                                    <img src="assets/silk.png" alt="">
+                                    <p class="hidden">silk</p>
+                                </button>
+                                <p>Seda</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/cotton.png" alt=""></button>
-                                <p>Gola Redonda</p>
+                                <button class="option-button" onclick="selectMaterialOption(this)">
+                                    <img src="assets/cotton.png" alt="">
+                                    <p class="hidden">cotton</p>
+                                </button>
+                                <p>Algodão</p>
                             </div>
                             <div class="option">
-                                <button class="option-button"><img src="assets/polyester.png" alt=""></button>
-                                <p>Gola Polo</p>
+                                <button class="option-button" onclick="selectMaterialOption(this)">
+                                    <img src="assets/polyester.png" alt="">
+                                    <p class="hidden">polyester</p>
+                                </button>
+                                <p>Poliéster</p>
                             </div>
-                        </div> <!-- fabric options -->
-                    </div> <!-- fabric -->
+                        </div> <!-- materials options -->
+                    </div> <!-- materials -->
 
                     <p>Imagem de referência</p>
-                    <input class="input-link" type="text" placeholder="Insira o link">
+                    <input class="input-link" id="aaa" type="text" 
+                    placeholder="Insira o link" onchange="verifyInput(this)">
                     <button class="confirm-order">Confirmar pedido</button>
 
                 </div> <!-- order -->

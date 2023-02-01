@@ -47,31 +47,31 @@ main {
     margin-top: 8px;
     margin-bottom: 30px;
 }
-.collar {
+.necks {
     width: 385px;
     display: flex;
     flex-direction: column;
 }
-.collar img {
+.necks img {
     width: 80px;
     height: 55px;
 }
-.collar-options {
+.necks-options {
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
     margin-bottom: 30px;
 }
-.fabric {
+.materials {
     width: 385px;
     display: flex;
     flex-direction: column;
 }
-.fabric img {
+.materials img {
     width: 54px;
     height: 54px;
 }
-.fabric-options {
+.materials-options {
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
@@ -89,7 +89,7 @@ main {
     border: 0.5px solid #C4C4C4;
     background-color: #F2F2F2;
 }
-.option-chosen {
+.option-selected {
     border: 3px solid #404EED;
 }
 .input-link {
@@ -131,5 +131,8 @@ aside {
 }
 aside img {
     width: 550px;
+}
+.hidden {
+    display: none;
 }
 
