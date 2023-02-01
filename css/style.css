@@ -89,6 +89,9 @@ main {
     border: 0.5px solid #C4C4C4;
     background-color: #F2F2F2;
 }
+.option-button:hover {
+    filter:brightness(90%)
+}
 .option-selected {
     border: 3px solid #404EED;
 }
@@ -109,6 +112,9 @@ main {
 .input-link:focus {
     outline: none;
 }
+.input-link:hover {
+    filter:brightness(90%)
+}
 .confirm-order {
     background-color: #C4C4C4;
     height: 40px;
@@ -121,6 +127,9 @@ main {
 .confirm-order-ready {
     background-color: #404EED;
 }
+.confirm-order-ready:hover {
+    filter:brightness(85%)
+}
 aside {
     width: 50%;
     height:  785px;
@@ -131,6 +140,42 @@ aside {
 }
 aside img {
     width: 550px;
+}
+footer {
+    height: 342px;
+    background-color: #F2F2F2;
+}
+footer p {
+    margin-left: 122px;
+    margin-top: 31px;
+    font-size: 24px;
+}
+.last-orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-order {
+    width: 200px;
+    height: 236px;
+    margin-left: 40px;
+    background-color:#FFFFFF;
+    displaY: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last-order p {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+.last-order img {
+    width: 180px;
+    height: 180px;
+    padding-top: 20px
+}
+span {
+    font-weight: 700;
 }
 .hidden {
     display: none;

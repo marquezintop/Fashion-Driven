@@ -115,8 +115,9 @@
 
                     <p>Imagem de referência</p>
                     <input class="input-link" id="aaa" type="text" 
-                    placeholder="Insira o link" onchange="verifyInput(this)">
-                    <button class="confirm-order">Confirmar pedido</button>
+                    placeholder="Insira o link" 
+                    onkeyuponpaste oninput="verifyInput(this)">
+                    <button class="confirm-order" onclick="confirmOrder()">Confirmar pedido</button>
 
                 </div> <!-- order -->
             </main> <!-- main -->
@@ -126,6 +127,31 @@
             </aside>
 
         </div> <!-- content -->
+        <footer>
+            <p>Últimos pedidos</p>
+            <div class="last-orders">
+                <div class="last-order">
+                    <img src="assets/Blusa1.png">
+                    <p><span>Criador:</span> Agata</p>
+                </div>
+                <div class="last-order">
+                    <img src="assets/Blusa1.png">
+                    <p><span>Criador:</span> Agata</p>
+                </div>
+                <div class="last-order">
+                    <img src="assets/Blusa1.png">
+                    <p><span>Criador:</span> Agata</p>
+                </div>
+                <div class="last-order">
+                    <img src="assets/Blusa1.png">
+                    <p><span>Criador:</span> Agata</p>
+                </div>
+                <div class="last-order">
+                    <img src="assets/Blusa1.png">
+                    <p><span>Criador:</span> Agata</p>
+                </div>
+            </div>
+        </footer>
     </div> <!-- container -->
 
     <!-- javascript -->
