@@ -92,6 +92,7 @@ function confirmOrderSucess(answer) {
     model = ''
     neck = ''
     material = ''
+    inputValue = ''
     document.querySelector('input').value = ''
     verifyConfirmOrder()
     getLastOrders()
